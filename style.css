@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5% , #fd5949 45%, #d6249f 60%, #285AEb 90%);
+    height: 120px;
+    width: 120px;
+   
+    border: none;
+    border-radius: 35px;
+    padding: 25px;
+}
+.container{
+    border: 10px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+}
+.part1{
+    border: 10px solid white; 
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    margin: 15px;
+  
+}
+.part2{
+    border: 7px solid white; 
+    width: 1px;
+    border-radius: 100px;
+    margin: 75px;
+    margin-top: -92px;
+}
